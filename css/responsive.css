@@ -1,0 +1,197 @@
+@media (max-width: 1100px) {
+  .header-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sub-header-nav-wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+x
+  .tools-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .about-intro-name {
+    font-size: 48px;
+  }
+
+  .about-intro-role {
+    font-size: 24px;
+  }
+
+  .about-intro-text {
+    font-size: 18px;
+  }
+
+  .projects-main-title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 24px;
+  }
+
+  .tools-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .training-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .hero-role {
+    font-size: 22px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .about-intro-card {
+    min-height: 280px;
+    margin-bottom: 50px;
+  }
+
+  .about-intro-name {
+    font-size: 40px;
+  }
+
+  .projects-main-title {
+    font-size: 40px;
+  }
+
+  .projects-main-subtitle {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 700px) {
+  .brand-name {
+    font-size: 17px;
+  }
+
+  .nav-link {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .hero-image-wrapper {
+    width: 160px;
+    height: 160px;
+  }
+
+  .hero-title {
+    font-size: 38px;
+  }
+
+  .hero-role {
+    font-size: 21px;
+  }
+
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-page {
+    padding: 30px 0 60px;
+  }
+
+  .about-intro-card {
+    padding: 30px 20px;
+    gap: 20px;
+    border-radius: 24px;
+  }
+
+  .about-intro-name {
+    font-size: 34px;
+  }
+
+  .about-intro-role {
+    font-size: 20px;
+  }
+
+  .about-intro-text {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .training-card {
+    padding: 24px 20px;
+  }
+
+  .training-card h3 {
+    font-size: 17px;
+  }
+
+  .training-card h4,
+  .training-date,
+  .training-list li {
+    font-size: 15px;
+  }
+
+  .projects-page {
+    padding: 30px 0 60px;
+  }
+
+  .projects-main-title {
+    font-size: 34px;
+  }
+
+  .projects-main-subtitle {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .project-cover {
+    height: 190px;
+  }
+
+  .project-content {
+    padding: 24px 20px 28px;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-description {
+    font-size: 15px;
+  }
+
+  .project-tag {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  .project-btn {
+    min-width: 160px;
+    padding: 16px 22px;
+    font-size: 15px;
+  }
+}
